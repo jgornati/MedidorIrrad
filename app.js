@@ -12,7 +12,7 @@ var users = require('./routes/user');
 var mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb://localhost/mqttDB');
+mongoose.connect('mongodb://localhost/irradDB');
 
 var app = exports.app = express();
 
